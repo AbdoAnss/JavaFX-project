@@ -34,6 +34,14 @@ public class Projet {
         this.taches = taches;
     }
 	
+	public Projet(int id, String name, Date startDate, Date endDate, Responsable responsible) {
+        this.identifiant = id;
+        this.nomProjet = name;
+        this.dateDebut = startDate;
+        this.dateFin = endDate;
+        this.responsable = responsible;
+    }
+	
 	public long getIdentifiant() {
 		return this.identifiant;
 	}

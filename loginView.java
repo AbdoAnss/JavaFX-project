@@ -33,8 +33,8 @@ public class loginView extends Application{
 	
 		Image image = new Image("res/project-management.png");
 		ImageView imageview = new ImageView(image);
-		imageview.setFitHeight(300);
-		imageview.setFitWidth(300);
+		//imageview.setFitHeight(300);
+		//imageview.setFitWidth(300);
 		
 		Path cheminIcone = Paths.get("src/res/home.png");
 		File iconeFile = cheminIcone.toFile();
@@ -46,7 +46,7 @@ public class loginView extends Application{
 		    System.err.println("Resource not found: " + iconeFile.getAbsolutePath());
 		}
 		
-		Text loginMessage = new Text("Bonjour! Entrer votre identifiant et mot de passe.");
+		Text loginMessage = new Text("Bonjour! Entrer votre identifiant et mot de passe:");
 
 		
 		TextField tf1 = new TextField();

@@ -72,9 +72,25 @@ public class mainView extends Application {
 		vbox1.setSpacing(10);
 		vbox1.getChildren().addAll(welcome,btnProfil,btnDeconnect);
 		
-		Text nbrProjects = new Text("Vous avez "+ 3 +" projets");
+		Text nbrProjects = new Text("Vous avez "+ 0 +" projets");
 		Button btnAllProjects = new Button("Tous les projets");
 		Button btnNewProject = new Button("Nouveau projet");
+		
+		btnAllProjects.setOnMouseClicked((evt)->{
+			showProjects showProjets = new showProjects();
+			try { showProjets.start(new Stage()); }
+			catch (Exception e) {e.printStackTrace(); }
+		});
+		
+		btnNewProject.setOnMouseClicked((evt)->{
+			AddProject addProjets = new AddProject();
+			try { addProjets.start(new Stage()); }
+			catch (Exception e) {e.printStackTrace(); }
+		});
+		
+		
+		
+		
 		HBox hbox1 = new HBox();
 		hbox1.setAlignment(Pos.CENTER);
 		hbox1.setSpacing(10);
