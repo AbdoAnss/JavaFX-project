@@ -21,7 +21,6 @@ Enterprise Project Manager is a JavaFX application designed to assist businesses
 
 - **User Authentication:** Securely manage user access with authentication features, ensuring data confidentiality.
 
-## Getting Started
 
 ### Prerequisites
 
@@ -30,11 +29,3 @@ Enterprise Project Manager is a JavaFX application designed to assist businesses
 - MySQL
 - Jackson-databind
 
-
-## Contact
-
-For any inquiries or support, please contact [Your Name] at [abdoanss@proton.me].
-
-## Acknowledgements
-
-We would like to express our gratitude to [mention any libraries, frameworks, or individuals] for their contributions to this project.
