@@ -1,31 +1,40 @@
-# Gestion des projets en javaFX
-# Enterprise Project Manager in JavaFX
+# Enterprise Project Manager: A JavaFX Application
 
 ---
 
-## Overview
+## Table of Contents
+- [Introduction](#introduction)
+- [Key Features](#key-features)
+- [Prerequisites](#prerequisites)
+- [Acknowledgment](#acknowledgment)
 
-Enterprise Project Manager is a JavaFX application designed to assist businesses in efficiently managing their projects and tasks. The application provides a user-friendly interface to streamline project management processes, enhance collaboration, and improve overall productivity within an organization.
+---
 
-## Features
+## Introduction
 
-- **Project Management:** Easily create, edit, and organize projects with details such as project name, description, and due dates.
+Enterprise Project Manager is a comprehensive JavaFX application, specifically designed to facilitate businesses in managing their projects and tasks more effectively. It offers an intuitive interface that simplifies project management processes, promotes collaboration, and enhances overall productivity within an organization.
 
-- **Task Tracking:** Break down projects into tasks, assign responsibilities, and monitor task progress.
+## Key Features
 
-- **Collaboration:** Foster teamwork by enabling communication and collaboration among team members within the application.
+- **Project Management:** Simplify the creation, editing, and organization of projects. Add details such as project name, description, and due dates with ease.
 
-- **File Attachments:** Attach relevant documents, images, or any supporting files to projects and tasks for easy reference.
+- **Task Tracking:** Break down complex projects into manageable tasks. Assign responsibilities and track the progress of each task.
 
-- **Gantt Chart View:** Visualize project timelines and dependencies using an interactive Gantt chart.
+- **Collaboration Tools:** Promote teamwork and improve communication among team members within the application.
 
-- **User Authentication:** Securely manage user access with authentication features, ensuring data confidentiality.
+- **User Authentication:** Manage user access securely with robust authentication features, ensuring the confidentiality of data.
 
+## Prerequisites
 
-### Prerequisites
+Before you begin, ensure you have the following installed:
 
-- Java Development Kit (JDK)
-- JavaFX
-- MySQL
-- Jackson-databind
+- Java Development Kit (JDK).
+- JavaFX.
+- MySQL (Workbench 8.0 CE is recommended for ease of use).
+- Jackson-databind.
 
+## Acknowledgment
+
+Thanks to my teammates who helped a lot with this project. Special thanks to:
+- Oussama
+- Abdelkarim
